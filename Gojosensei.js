@@ -1162,16 +1162,18 @@ let ments = [me, jodoh]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: ments})
             }
             break
-            case 'couple': {
+            case 'زواج': {
             if (!m.isGroup) return replay(`${mess.group}`)
             let member = participants.map(u => u.id)
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
+           «معلش زوجناكم لانكم تصبحون لبعض🤡»
+«اللي يشوفهم مناسبين لبعض زي يضغط يب🤡»
+ let jawab = `@${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}
 Cieeee, What's Going On❤️💖👀`
             let menst = [orang, jodoh]
             let buttons = [
-                        { buttonId: '❤️', buttonText: { displayText: '❤️' }, type: 1 }
+                        { buttonId: '⟨يب هم مناسبين لبعض😂⟩', buttonText: { displayText: '❤️' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, jawab, GojoMdNx.user.name, m, {mentions: menst})
             }
@@ -3164,7 +3166,7 @@ View List Of Messages With ${prefix}listmsg`)
                 if (!room) {
                     let buttons = [
                         { buttonId: 'start', buttonText: { displayText: '🚶Start🚶' }, type: 1 }
-                    ]
+                    ] 
                     await GojoMdNx.sendButtonText(m.chat, buttons, `\`\`\`You Are Not In An Anonymous Session, Press The Button To Find A Partner \`\`\``)
                    reply(false)
                 }
