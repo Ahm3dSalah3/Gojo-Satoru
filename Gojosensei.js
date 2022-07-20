@@ -3751,8 +3751,8 @@ case 'allmenu': {
 ┃╠ ${prefix}hornycheck [tag]
 ┃╠ ${prefix}charactercheck [tag]
 ┃╠ ${prefix}lovelycheck [tag]
-┃╠ ${prefix}زواج
-┃╠ ${prefix}زوجني
+┃╠ ${prefix}couple
+┃╠ ${prefix}mysoulmate
 ┃╠ ${prefix}hot
 ┃╠ ${prefix}sexy
 ┃╠ ${prefix}kind
